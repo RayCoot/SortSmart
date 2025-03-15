@@ -19,6 +19,13 @@ pip install uvicorn
 poetry install --no-root
 ```
 
+Application code need to read OPENAI_API_KEY from .env file.  
+Create one empty .env file under SortSmart folder, save your OPENAI_API_KEY inside .env file.  
+
+```toml
+OPENAI_API_KEY="your-openai-api-key"
+```
+
 Start local server
 
 ```sh
